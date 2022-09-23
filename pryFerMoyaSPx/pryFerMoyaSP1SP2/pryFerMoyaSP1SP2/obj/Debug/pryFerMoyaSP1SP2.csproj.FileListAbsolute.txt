@@ -1,0 +1,12 @@
+C:\Users\fermo\source\repos\pryFerMoyaSP1SP2\pryFerMoyaSP1SP2\bin\Debug\pryFerMoyaSP1SP2.exe.config
+C:\Users\fermo\source\repos\pryFerMoyaSP1SP2\pryFerMoyaSP1SP2\bin\Debug\pryFerMoyaSP1SP2.exe
+C:\Users\fermo\source\repos\pryFerMoyaSP1SP2\pryFerMoyaSP1SP2\bin\Debug\pryFerMoyaSP1SP2.pdb
+C:\Users\fermo\source\repos\pryFerMoyaSP1SP2\pryFerMoyaSP1SP2\obj\Debug\pryFerMoyaSP1SP2.csproj.AssemblyReference.cache
+C:\Users\fermo\source\repos\pryFerMoyaSP1SP2\pryFerMoyaSP1SP2\obj\Debug\pryFerMoyaSP1SP2.csproj.SuggestedBindingRedirects.cache
+C:\Users\fermo\source\repos\pryFerMoyaSP1SP2\pryFerMoyaSP1SP2\obj\Debug\pryFerMoyaSP1SP2.FormLogin.resources
+C:\Users\fermo\source\repos\pryFerMoyaSP1SP2\pryFerMoyaSP1SP2\obj\Debug\pryFerMoyaSP1SP2.Properties.Resources.resources
+C:\Users\fermo\source\repos\pryFerMoyaSP1SP2\pryFerMoyaSP1SP2\obj\Debug\pryFerMoyaSP1SP2.csproj.GenerateResource.cache
+C:\Users\fermo\source\repos\pryFerMoyaSP1SP2\pryFerMoyaSP1SP2\obj\Debug\pryFerMoyaSP1SP2.csproj.CoreCompileInputs.cache
+C:\Users\fermo\source\repos\pryFerMoyaSP1SP2\pryFerMoyaSP1SP2\obj\Debug\pryFerMoyaSP1SP2.exe
+C:\Users\fermo\source\repos\pryFerMoyaSP1SP2\pryFerMoyaSP1SP2\obj\Debug\pryFerMoyaSP1SP2.pdb
+C:\Users\fermo\source\repos\pryFerMoyaSP1SP2\pryFerMoyaSP1SP2\obj\Debug\pryFerMoyaSP1SP2.FrmInicio.resources
