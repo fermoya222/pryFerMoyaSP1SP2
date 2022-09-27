@@ -35,7 +35,7 @@ namespace pryFerMoyaSP1SP2
                 intentos++;
                 if (intentos == 3)
                 {
-                    this.Close();
+                    this.Close(); //lo cierra
                 }
 
             }
