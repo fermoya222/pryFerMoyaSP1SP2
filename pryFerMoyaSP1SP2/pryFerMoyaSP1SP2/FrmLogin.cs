@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace pryFerMoyaSP1SP2
 {
-    public partial class FormLogin : Form
+    public partial class frmLogin : Form
     {
         int intentos = 0;
 
-        public FormLogin()
+        public frmLogin()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace pryFerMoyaSP1SP2
                 txtContrasenia.Text == "adm135$") || (txtUsuario.Text == "Operador" &&
                 txtContrasenia.Text == "ope246$"))
             {
-                var frmInicio1 = new FrmInicio(); 
+                var frmInicio1 = new frmInicio(); 
                 frmInicio1.ShowDialog();
                 this.Hide();
             }

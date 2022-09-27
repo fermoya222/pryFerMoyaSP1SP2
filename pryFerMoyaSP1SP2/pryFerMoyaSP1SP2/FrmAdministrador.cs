@@ -10,16 +10,17 @@ using System.Windows.Forms;
 
 namespace pryFerMoyaSP1SP2
 {
-    public partial class FrmInicio : Form
+    public partial class frmInicio : Form
     {
-        public FrmInicio()
+        public frmInicio()
         {
             InitializeComponent();
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close();  
+
         }
     }
 }

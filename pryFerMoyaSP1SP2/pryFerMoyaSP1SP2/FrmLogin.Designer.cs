@@ -1,6 +1,6 @@
 ﻿namespace pryFerMoyaSP1SP2
 {
-    partial class FormLogin
+    partial class frmLogin
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -90,7 +90,7 @@
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // FormLogin
+            // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -102,7 +102,7 @@
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
-            this.Name = "FormLogin";
+            this.Name = "frmLogin";
             this.Text = "LOGIN";
             this.ResumeLayout(false);
             this.PerformLayout();

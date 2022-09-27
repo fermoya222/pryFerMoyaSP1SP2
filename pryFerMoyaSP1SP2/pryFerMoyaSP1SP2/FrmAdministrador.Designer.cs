@@ -1,6 +1,6 @@
 ﻿namespace pryFerMoyaSP1SP2
 {
-    partial class FrmInicio
+    partial class frmInicio
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbl1 = new System.Windows.Forms.Label();
+            this.lblBienvenido = new System.Windows.Forms.Label();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lbl1
+            // lblBienvenido
             // 
-            this.lbl1.AutoSize = true;
-            this.lbl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(108, 82);
-            this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(354, 39);
-            this.lbl1.TabIndex = 0;
-            this.lbl1.Text = "Bienvenido al Sistema";
+            this.lblBienvenido.AutoSize = true;
+            this.lblBienvenido.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblBienvenido.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBienvenido.Location = new System.Drawing.Point(108, 82);
+            this.lblBienvenido.Name = "lblBienvenido";
+            this.lblBienvenido.Size = new System.Drawing.Size(354, 39);
+            this.lblBienvenido.TabIndex = 0;
+            this.lblBienvenido.Text = "Bienvenido al Sistema";
             // 
             // btnAceptar
             // 
@@ -53,14 +53,14 @@
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
-            // FrmInicio
+            // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(572, 284);
             this.Controls.Add(this.btnAceptar);
-            this.Controls.Add(this.lbl1);
-            this.Name = "FrmInicio";
+            this.Controls.Add(this.lblBienvenido);
+            this.Name = "frmInicio";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -68,7 +68,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Label lblBienvenido;
         private System.Windows.Forms.Button btnAceptar;
     }
 }
