@@ -12,9 +12,21 @@ namespace pryMoyaSP2
 {
     public partial class frmCabañas : Form
     {
+        private readonly object Total;
+
         public frmCabañas()
         {
             InitializeComponent();
+
+        }
+
+        private void frmCabañas_Load(object sender, EventArgs e)
+        {
+            lstTipo.SelectedIndex = 0;
+
+            txtDias.SelectedText = "1";
+
+            lstPersonas.SelectedIndex = 0;
         }
 
         private void LstTipo_SelectedIndexChanged(object sender, EventArgs e)
@@ -105,13 +117,43 @@ namespace pryMoyaSP2
             
         }
 
-        private void frmCabañas_Load(object sender, EventArgs e)
+      
+
+        private void btnAceptar_Click(object sender, EventArgs e)
         {
-            lstTipo.SelectedIndex = 0;
+           this.Close();
 
-            txtDias.SelectedText = "1";
+        }
 
-            lstPersonas.SelectedIndex = 0;  
+        private void txtTelefonosTitular_TextChanged(object sender, EventArgs e)
+        {
+            if (Convert.ToInt32(txtDias.Text) > 0 && txtNombreTitular.Text != "" && txtTelefonosTitular.Text != "")
+            {
+                btnAceptar.Enabled = true;
+            }
+            else
+            {
+                btnAceptar.Enabled = false;
+            }
+        }
+
+        private void txtDias_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;   
+
+            }
+
+        }
+
+        private void txtTelefonosTitular_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+
+            }
         }
     }
 }
