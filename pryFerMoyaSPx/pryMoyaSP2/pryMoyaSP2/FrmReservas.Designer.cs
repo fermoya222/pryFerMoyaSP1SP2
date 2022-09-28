@@ -43,8 +43,8 @@
             this.mrcFormas = new System.Windows.Forms.GroupBox();
             this.lstTarjetas = new System.Windows.Forms.ComboBox();
             this.lblTarjetas = new System.Windows.Forms.Label();
-            this.btnTarjeta = new System.Windows.Forms.RadioButton();
-            this.btnEfectivo = new System.Windows.Forms.RadioButton();
+            this.optTarjeta = new System.Windows.Forms.RadioButton();
+            this.optEfectivo = new System.Windows.Forms.RadioButton();
             this.mrcTitular = new System.Windows.Forms.GroupBox();
             this.txtTelefonosTitular = new System.Windows.Forms.TextBox();
             this.txtNombreTitular = new System.Windows.Forms.TextBox();
@@ -178,8 +178,8 @@
             // 
             this.mrcFormas.Controls.Add(this.lstTarjetas);
             this.mrcFormas.Controls.Add(this.lblTarjetas);
-            this.mrcFormas.Controls.Add(this.btnTarjeta);
-            this.mrcFormas.Controls.Add(this.btnEfectivo);
+            this.mrcFormas.Controls.Add(this.optTarjeta);
+            this.mrcFormas.Controls.Add(this.optEfectivo);
             this.mrcFormas.Location = new System.Drawing.Point(278, 176);
             this.mrcFormas.Name = "mrcFormas";
             this.mrcFormas.Size = new System.Drawing.Size(465, 145);
@@ -211,29 +211,29 @@
             this.lblTarjetas.TabIndex = 2;
             this.lblTarjetas.Text = "Tarjetas";
             // 
-            // btnTarjeta
+            // optTarjeta
             // 
-            this.btnTarjeta.AutoSize = true;
-            this.btnTarjeta.Location = new System.Drawing.Point(51, 65);
-            this.btnTarjeta.Name = "btnTarjeta";
-            this.btnTarjeta.Size = new System.Drawing.Size(58, 17);
-            this.btnTarjeta.TabIndex = 1;
-            this.btnTarjeta.TabStop = true;
-            this.btnTarjeta.Text = "Tarjeta";
-            this.btnTarjeta.UseVisualStyleBackColor = true;
-            this.btnTarjeta.CheckedChanged += new System.EventHandler(this.BtnTarjeta_CheckedChanged);
+            this.optTarjeta.AutoSize = true;
+            this.optTarjeta.Location = new System.Drawing.Point(51, 65);
+            this.optTarjeta.Name = "optTarjeta";
+            this.optTarjeta.Size = new System.Drawing.Size(58, 17);
+            this.optTarjeta.TabIndex = 1;
+            this.optTarjeta.TabStop = true;
+            this.optTarjeta.Text = "Tarjeta";
+            this.optTarjeta.UseVisualStyleBackColor = true;
+            this.optTarjeta.CheckedChanged += new System.EventHandler(this.BtnTarjeta_CheckedChanged);
             // 
-            // btnEfectivo
+            // optEfectivo
             // 
-            this.btnEfectivo.AutoSize = true;
-            this.btnEfectivo.Location = new System.Drawing.Point(51, 29);
-            this.btnEfectivo.Name = "btnEfectivo";
-            this.btnEfectivo.Size = new System.Drawing.Size(64, 17);
-            this.btnEfectivo.TabIndex = 0;
-            this.btnEfectivo.TabStop = true;
-            this.btnEfectivo.Text = "Efectivo";
-            this.btnEfectivo.UseVisualStyleBackColor = true;
-            this.btnEfectivo.CheckedChanged += new System.EventHandler(this.BtnEfectivo_CheckedChanged);
+            this.optEfectivo.AutoSize = true;
+            this.optEfectivo.Location = new System.Drawing.Point(51, 29);
+            this.optEfectivo.Name = "optEfectivo";
+            this.optEfectivo.Size = new System.Drawing.Size(64, 17);
+            this.optEfectivo.TabIndex = 0;
+            this.optEfectivo.TabStop = true;
+            this.optEfectivo.Text = "Efectivo";
+            this.optEfectivo.UseVisualStyleBackColor = true;
+            this.optEfectivo.CheckedChanged += new System.EventHandler(this.BtnEfectivo_CheckedChanged);
             // 
             // mrcTitular
             // 
@@ -302,6 +302,7 @@
             this.Controls.Add(this.mrcTipoCab);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCabañas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reserva de Cabañas";
             this.Load += new System.EventHandler(this.frmCabañas_Load);
             this.mrcTipoCab.ResumeLayout(false);
@@ -332,8 +333,8 @@
         private System.Windows.Forms.GroupBox mrcFormas;
         private System.Windows.Forms.ComboBox lstTarjetas;
         private System.Windows.Forms.Label lblTarjetas;
-        private System.Windows.Forms.RadioButton btnTarjeta;
-        private System.Windows.Forms.RadioButton btnEfectivo;
+        private System.Windows.Forms.RadioButton optTarjeta;
+        private System.Windows.Forms.RadioButton optEfectivo;
         private System.Windows.Forms.GroupBox mrcTitular;
         private System.Windows.Forms.TextBox txtTelefonosTitular;
         private System.Windows.Forms.TextBox txtNombreTitular;

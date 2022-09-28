@@ -68,12 +68,19 @@ namespace pryMoyaSP2
 
         private void txtDias_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void BtnEfectivo_CheckedChanged(object sender, EventArgs e)
         {
-            
+            if (optEfectivo.Checked == true)
+            {
+                lstTarjetas.Enabled = false;
+            }
+            else
+            {
+                lstTarjetas.Enabled = true;
+            }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -83,8 +90,14 @@ namespace pryMoyaSP2
 
         private void BtnTarjeta_CheckedChanged(object sender, EventArgs e)
         {
-            
-
+            if (optTarjeta.Checked == true)
+            {
+                lstTarjetas.SelectedIndex = 0;
+            }
+            else
+            {
+                lstTarjetas.SelectedIndex = -1;
+            }
         }
 
         private void mrcFormas_Enter(object sender, EventArgs e)
@@ -94,7 +107,11 @@ namespace pryMoyaSP2
 
         private void frmCabañas_Load(object sender, EventArgs e)
         {
+            lstTipo.SelectedIndex = 0;
 
+            txtDias.SelectedText = "1";
+
+            lstPersonas.SelectedIndex = 0;  
         }
     }
 }
