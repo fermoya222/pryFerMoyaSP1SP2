@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace pryMoyaSP2
 {
-    public partial class FrmCabañas : Form
+    public partial class frmCabañas : Form
     {
-        public FrmCabañas()
+        public frmCabañas()
         {
             InitializeComponent();
         }
 
         private void LstTipo_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (LstTipo.SelectedIndex != -1)
+            if (lstTipo.SelectedIndex != -1)
             {
                 lstPersonas.Enabled = true;
             }
@@ -28,7 +28,7 @@ namespace pryMoyaSP2
                 lstPersonas.Enabled = false;
             }
 
-            if (LstTipo.Text == "A")
+            if (lstTipo.Text == "A")
             {
                 lstPersonas.Items.Clear();
                 lstPersonas.Items.Add(1);
@@ -37,7 +37,7 @@ namespace pryMoyaSP2
                 lstPersonas.Items.Add(4);
 
             }
-            if (LstTipo.Text == "B")
+            if (lstTipo.Text == "B")
             {
                 lstPersonas.Items.Clear();
                 lstPersonas.Items.Add(1);
@@ -67,6 +67,32 @@ namespace pryMoyaSP2
         }
 
         private void txtDias_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnEfectivo_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnTarjeta_CheckedChanged(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void mrcFormas_Enter(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void frmCabañas_Load(object sender, EventArgs e)
         {
 
         }

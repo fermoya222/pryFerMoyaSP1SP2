@@ -16,7 +16,7 @@ namespace pryMoyaSP2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmCabañas());
+            Application.Run(new frmCabañas());
         }
     }
 }

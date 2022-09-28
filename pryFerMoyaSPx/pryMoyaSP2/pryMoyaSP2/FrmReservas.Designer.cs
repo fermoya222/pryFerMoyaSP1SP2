@@ -1,6 +1,6 @@
 ﻿namespace pryMoyaSP2
 {
-    partial class FrmCabañas
+    partial class frmCabañas
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,49 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCabañas));
-            this.MrcTipoCab = new System.Windows.Forms.GroupBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCabañas));
+            this.mrcTipoCab = new System.Windows.Forms.GroupBox();
             this.txtDias = new System.Windows.Forms.TextBox();
-            this.LblDias = new System.Windows.Forms.Label();
+            this.lblDias = new System.Windows.Forms.Label();
             this.lstPersonas = new System.Windows.Forms.ComboBox();
-            this.LblPersonas = new System.Windows.Forms.Label();
-            this.LstTipo = new System.Windows.Forms.ComboBox();
-            this.LblTipo = new System.Windows.Forms.Label();
-            this.MrcAdicionales = new System.Windows.Forms.GroupBox();
+            this.lblPersonas = new System.Windows.Forms.Label();
+            this.lstTipo = new System.Windows.Forms.ComboBox();
+            this.lblTipo = new System.Windows.Forms.Label();
+            this.mrcAdicionales = new System.Windows.Forms.GroupBox();
             this.chkTelevision = new System.Windows.Forms.CheckBox();
             this.chkHeladera = new System.Windows.Forms.CheckBox();
             this.chkCocina = new System.Windows.Forms.CheckBox();
-            this.MrcFormas = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.mrcFormas = new System.Windows.Forms.GroupBox();
+            this.lstTarjetas = new System.Windows.Forms.ComboBox();
             this.lblTarjetas = new System.Windows.Forms.Label();
-            this.BtnTarjeta = new System.Windows.Forms.RadioButton();
-            this.BtnEfectivo = new System.Windows.Forms.RadioButton();
-            this.MrcTitular = new System.Windows.Forms.GroupBox();
+            this.btnTarjeta = new System.Windows.Forms.RadioButton();
+            this.btnEfectivo = new System.Windows.Forms.RadioButton();
+            this.mrcTitular = new System.Windows.Forms.GroupBox();
             this.txtTelefonosTitular = new System.Windows.Forms.TextBox();
             this.txtNombreTitular = new System.Windows.Forms.TextBox();
             this.lblTelefonos = new System.Windows.Forms.Label();
             this.lblNombreTitular = new System.Windows.Forms.Label();
             this.btnAceptar = new System.Windows.Forms.Button();
-            this.MrcTipoCab.SuspendLayout();
-            this.MrcAdicionales.SuspendLayout();
-            this.MrcFormas.SuspendLayout();
-            this.MrcTitular.SuspendLayout();
+            this.mrcTipoCab.SuspendLayout();
+            this.mrcAdicionales.SuspendLayout();
+            this.mrcFormas.SuspendLayout();
+            this.mrcTitular.SuspendLayout();
             this.SuspendLayout();
             // 
-            // MrcTipoCab
+            // mrcTipoCab
             // 
-            this.MrcTipoCab.Controls.Add(this.txtDias);
-            this.MrcTipoCab.Controls.Add(this.LblDias);
-            this.MrcTipoCab.Controls.Add(this.lstPersonas);
-            this.MrcTipoCab.Controls.Add(this.LblPersonas);
-            this.MrcTipoCab.Controls.Add(this.LstTipo);
-            this.MrcTipoCab.Controls.Add(this.LblTipo);
-            this.MrcTipoCab.Location = new System.Drawing.Point(39, 23);
-            this.MrcTipoCab.Name = "MrcTipoCab";
-            this.MrcTipoCab.Size = new System.Drawing.Size(704, 129);
-            this.MrcTipoCab.TabIndex = 0;
-            this.MrcTipoCab.TabStop = false;
-            this.MrcTipoCab.Text = "Tipo de Cabañas";
+            this.mrcTipoCab.Controls.Add(this.txtDias);
+            this.mrcTipoCab.Controls.Add(this.lblDias);
+            this.mrcTipoCab.Controls.Add(this.lstPersonas);
+            this.mrcTipoCab.Controls.Add(this.lblPersonas);
+            this.mrcTipoCab.Controls.Add(this.lstTipo);
+            this.mrcTipoCab.Controls.Add(this.lblTipo);
+            this.mrcTipoCab.Location = new System.Drawing.Point(39, 23);
+            this.mrcTipoCab.Name = "mrcTipoCab";
+            this.mrcTipoCab.Size = new System.Drawing.Size(704, 129);
+            this.mrcTipoCab.TabIndex = 0;
+            this.mrcTipoCab.TabStop = false;
+            this.mrcTipoCab.Text = "Tipo de Cabañas";
             // 
             // txtDias
             // 
@@ -81,14 +81,14 @@
             this.txtDias.TabIndex = 5;
             this.txtDias.TextChanged += new System.EventHandler(this.txtDias_TextChanged);
             // 
-            // LblDias
+            // lblDias
             // 
-            this.LblDias.AutoSize = true;
-            this.LblDias.Location = new System.Drawing.Point(494, 72);
-            this.LblDias.Name = "LblDias";
-            this.LblDias.Size = new System.Drawing.Size(28, 13);
-            this.LblDias.TabIndex = 4;
-            this.LblDias.Text = "Dias";
+            this.lblDias.AutoSize = true;
+            this.lblDias.Location = new System.Drawing.Point(494, 72);
+            this.lblDias.Name = "lblDias";
+            this.lblDias.Size = new System.Drawing.Size(28, 13);
+            this.lblDias.TabIndex = 4;
+            this.lblDias.Text = "Dias";
             // 
             // lstPersonas
             // 
@@ -101,48 +101,48 @@
             this.lstPersonas.TabIndex = 3;
             this.lstPersonas.SelectedIndexChanged += new System.EventHandler(this.lstPersonas_SelectedIndexChanged);
             // 
-            // LblPersonas
+            // lblPersonas
             // 
-            this.LblPersonas.AutoSize = true;
-            this.LblPersonas.Location = new System.Drawing.Point(245, 72);
-            this.LblPersonas.Name = "LblPersonas";
-            this.LblPersonas.Size = new System.Drawing.Size(51, 13);
-            this.LblPersonas.TabIndex = 2;
-            this.LblPersonas.Text = "Personas";
+            this.lblPersonas.AutoSize = true;
+            this.lblPersonas.Location = new System.Drawing.Point(245, 72);
+            this.lblPersonas.Name = "lblPersonas";
+            this.lblPersonas.Size = new System.Drawing.Size(51, 13);
+            this.lblPersonas.TabIndex = 2;
+            this.lblPersonas.Text = "Personas";
             // 
-            // LstTipo
+            // lstTipo
             // 
-            this.LstTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.LstTipo.FormattingEnabled = true;
-            this.LstTipo.Items.AddRange(new object[] {
+            this.lstTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.lstTipo.FormattingEnabled = true;
+            this.lstTipo.Items.AddRange(new object[] {
             "A",
             "B"});
-            this.LstTipo.Location = new System.Drawing.Point(98, 69);
-            this.LstTipo.Name = "LstTipo";
-            this.LstTipo.Size = new System.Drawing.Size(117, 21);
-            this.LstTipo.TabIndex = 1;
-            this.LstTipo.SelectedIndexChanged += new System.EventHandler(this.LstTipo_SelectedIndexChanged);
+            this.lstTipo.Location = new System.Drawing.Point(98, 69);
+            this.lstTipo.Name = "lstTipo";
+            this.lstTipo.Size = new System.Drawing.Size(117, 21);
+            this.lstTipo.TabIndex = 1;
+            this.lstTipo.SelectedIndexChanged += new System.EventHandler(this.LstTipo_SelectedIndexChanged);
             // 
-            // LblTipo
+            // lblTipo
             // 
-            this.LblTipo.AutoSize = true;
-            this.LblTipo.Location = new System.Drawing.Point(54, 72);
-            this.LblTipo.Name = "LblTipo";
-            this.LblTipo.Size = new System.Drawing.Size(28, 13);
-            this.LblTipo.TabIndex = 0;
-            this.LblTipo.Text = "Tipo";
+            this.lblTipo.AutoSize = true;
+            this.lblTipo.Location = new System.Drawing.Point(54, 72);
+            this.lblTipo.Name = "lblTipo";
+            this.lblTipo.Size = new System.Drawing.Size(28, 13);
+            this.lblTipo.TabIndex = 0;
+            this.lblTipo.Text = "Tipo";
             // 
-            // MrcAdicionales
+            // mrcAdicionales
             // 
-            this.MrcAdicionales.Controls.Add(this.chkTelevision);
-            this.MrcAdicionales.Controls.Add(this.chkHeladera);
-            this.MrcAdicionales.Controls.Add(this.chkCocina);
-            this.MrcAdicionales.Location = new System.Drawing.Point(39, 176);
-            this.MrcAdicionales.Name = "MrcAdicionales";
-            this.MrcAdicionales.Size = new System.Drawing.Size(206, 145);
-            this.MrcAdicionales.TabIndex = 1;
-            this.MrcAdicionales.TabStop = false;
-            this.MrcAdicionales.Text = "Adicionales";
+            this.mrcAdicionales.Controls.Add(this.chkTelevision);
+            this.mrcAdicionales.Controls.Add(this.chkHeladera);
+            this.mrcAdicionales.Controls.Add(this.chkCocina);
+            this.mrcAdicionales.Location = new System.Drawing.Point(39, 176);
+            this.mrcAdicionales.Name = "mrcAdicionales";
+            this.mrcAdicionales.Size = new System.Drawing.Size(206, 145);
+            this.mrcAdicionales.TabIndex = 1;
+            this.mrcAdicionales.TabStop = false;
+            this.mrcAdicionales.Text = "Adicionales";
             // 
             // chkTelevision
             // 
@@ -174,71 +174,79 @@
             this.chkCocina.Text = "Cocina";
             this.chkCocina.UseVisualStyleBackColor = true;
             // 
-            // MrcFormas
+            // mrcFormas
             // 
-            this.MrcFormas.Controls.Add(this.comboBox1);
-            this.MrcFormas.Controls.Add(this.lblTarjetas);
-            this.MrcFormas.Controls.Add(this.BtnTarjeta);
-            this.MrcFormas.Controls.Add(this.BtnEfectivo);
-            this.MrcFormas.Location = new System.Drawing.Point(278, 176);
-            this.MrcFormas.Name = "MrcFormas";
-            this.MrcFormas.Size = new System.Drawing.Size(465, 145);
-            this.MrcFormas.TabIndex = 2;
-            this.MrcFormas.TabStop = false;
-            this.MrcFormas.Text = "Forma de pago";
+            this.mrcFormas.Controls.Add(this.lstTarjetas);
+            this.mrcFormas.Controls.Add(this.lblTarjetas);
+            this.mrcFormas.Controls.Add(this.btnTarjeta);
+            this.mrcFormas.Controls.Add(this.btnEfectivo);
+            this.mrcFormas.Location = new System.Drawing.Point(278, 176);
+            this.mrcFormas.Name = "mrcFormas";
+            this.mrcFormas.Size = new System.Drawing.Size(465, 145);
+            this.mrcFormas.TabIndex = 2;
+            this.mrcFormas.TabStop = false;
+            this.mrcFormas.Text = "Forma de pago";
+            this.mrcFormas.Enter += new System.EventHandler(this.mrcFormas_Enter);
             // 
-            // comboBox1
+            // lstTarjetas
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(51, 97);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(195, 21);
-            this.comboBox1.TabIndex = 3;
+            this.lstTarjetas.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.lstTarjetas.FormattingEnabled = true;
+            this.lstTarjetas.Items.AddRange(new object[] {
+            "Card Red",
+            "Card Green",
+            "Card Blue"});
+            this.lstTarjetas.Location = new System.Drawing.Point(176, 104);
+            this.lstTarjetas.Name = "lstTarjetas";
+            this.lstTarjetas.Size = new System.Drawing.Size(195, 21);
+            this.lstTarjetas.TabIndex = 3;
+            this.lstTarjetas.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // lblTarjetas
             // 
             this.lblTarjetas.AutoSize = true;
-            this.lblTarjetas.Location = new System.Drawing.Point(48, 65);
+            this.lblTarjetas.Location = new System.Drawing.Point(173, 69);
             this.lblTarjetas.Name = "lblTarjetas";
             this.lblTarjetas.Size = new System.Drawing.Size(45, 13);
             this.lblTarjetas.TabIndex = 2;
             this.lblTarjetas.Text = "Tarjetas";
             // 
-            // BtnTarjeta
+            // btnTarjeta
             // 
-            this.BtnTarjeta.AutoSize = true;
-            this.BtnTarjeta.Location = new System.Drawing.Point(188, 31);
-            this.BtnTarjeta.Name = "BtnTarjeta";
-            this.BtnTarjeta.Size = new System.Drawing.Size(58, 17);
-            this.BtnTarjeta.TabIndex = 1;
-            this.BtnTarjeta.TabStop = true;
-            this.BtnTarjeta.Text = "Tarjeta";
-            this.BtnTarjeta.UseVisualStyleBackColor = true;
+            this.btnTarjeta.AutoSize = true;
+            this.btnTarjeta.Location = new System.Drawing.Point(51, 65);
+            this.btnTarjeta.Name = "btnTarjeta";
+            this.btnTarjeta.Size = new System.Drawing.Size(58, 17);
+            this.btnTarjeta.TabIndex = 1;
+            this.btnTarjeta.TabStop = true;
+            this.btnTarjeta.Text = "Tarjeta";
+            this.btnTarjeta.UseVisualStyleBackColor = true;
+            this.btnTarjeta.CheckedChanged += new System.EventHandler(this.BtnTarjeta_CheckedChanged);
             // 
-            // BtnEfectivo
+            // btnEfectivo
             // 
-            this.BtnEfectivo.AutoSize = true;
-            this.BtnEfectivo.Location = new System.Drawing.Point(48, 31);
-            this.BtnEfectivo.Name = "BtnEfectivo";
-            this.BtnEfectivo.Size = new System.Drawing.Size(64, 17);
-            this.BtnEfectivo.TabIndex = 0;
-            this.BtnEfectivo.TabStop = true;
-            this.BtnEfectivo.Text = "Efectivo";
-            this.BtnEfectivo.UseVisualStyleBackColor = true;
+            this.btnEfectivo.AutoSize = true;
+            this.btnEfectivo.Location = new System.Drawing.Point(51, 29);
+            this.btnEfectivo.Name = "btnEfectivo";
+            this.btnEfectivo.Size = new System.Drawing.Size(64, 17);
+            this.btnEfectivo.TabIndex = 0;
+            this.btnEfectivo.TabStop = true;
+            this.btnEfectivo.Text = "Efectivo";
+            this.btnEfectivo.UseVisualStyleBackColor = true;
+            this.btnEfectivo.CheckedChanged += new System.EventHandler(this.BtnEfectivo_CheckedChanged);
             // 
-            // MrcTitular
+            // mrcTitular
             // 
-            this.MrcTitular.Controls.Add(this.txtTelefonosTitular);
-            this.MrcTitular.Controls.Add(this.txtNombreTitular);
-            this.MrcTitular.Controls.Add(this.lblTelefonos);
-            this.MrcTitular.Controls.Add(this.lblNombreTitular);
-            this.MrcTitular.Location = new System.Drawing.Point(39, 359);
-            this.MrcTitular.Name = "MrcTitular";
-            this.MrcTitular.Size = new System.Drawing.Size(704, 100);
-            this.MrcTitular.TabIndex = 3;
-            this.MrcTitular.TabStop = false;
-            this.MrcTitular.Text = "Titular de la reserva";
+            this.mrcTitular.Controls.Add(this.txtTelefonosTitular);
+            this.mrcTitular.Controls.Add(this.txtNombreTitular);
+            this.mrcTitular.Controls.Add(this.lblTelefonos);
+            this.mrcTitular.Controls.Add(this.lblNombreTitular);
+            this.mrcTitular.Location = new System.Drawing.Point(39, 359);
+            this.mrcTitular.Name = "mrcTitular";
+            this.mrcTitular.Size = new System.Drawing.Size(704, 100);
+            this.mrcTitular.TabIndex = 3;
+            this.mrcTitular.TabStop = false;
+            this.mrcTitular.Text = "Titular de la reserva";
             // 
             // txtTelefonosTitular
             // 
@@ -282,50 +290,51 @@
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             // 
-            // FrmCabañas
+            // frmCabañas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(779, 532);
             this.Controls.Add(this.btnAceptar);
-            this.Controls.Add(this.MrcTitular);
-            this.Controls.Add(this.MrcFormas);
-            this.Controls.Add(this.MrcAdicionales);
-            this.Controls.Add(this.MrcTipoCab);
+            this.Controls.Add(this.mrcTitular);
+            this.Controls.Add(this.mrcFormas);
+            this.Controls.Add(this.mrcAdicionales);
+            this.Controls.Add(this.mrcTipoCab);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FrmCabañas";
+            this.Name = "frmCabañas";
             this.Text = "Reserva de Cabañas";
-            this.MrcTipoCab.ResumeLayout(false);
-            this.MrcTipoCab.PerformLayout();
-            this.MrcAdicionales.ResumeLayout(false);
-            this.MrcAdicionales.PerformLayout();
-            this.MrcFormas.ResumeLayout(false);
-            this.MrcFormas.PerformLayout();
-            this.MrcTitular.ResumeLayout(false);
-            this.MrcTitular.PerformLayout();
+            this.Load += new System.EventHandler(this.frmCabañas_Load);
+            this.mrcTipoCab.ResumeLayout(false);
+            this.mrcTipoCab.PerformLayout();
+            this.mrcAdicionales.ResumeLayout(false);
+            this.mrcAdicionales.PerformLayout();
+            this.mrcFormas.ResumeLayout(false);
+            this.mrcFormas.PerformLayout();
+            this.mrcTitular.ResumeLayout(false);
+            this.mrcTitular.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox MrcTipoCab;
+        private System.Windows.Forms.GroupBox mrcTipoCab;
         private System.Windows.Forms.TextBox txtDias;
-        private System.Windows.Forms.Label LblDias;
+        private System.Windows.Forms.Label lblDias;
         private System.Windows.Forms.ComboBox lstPersonas;
-        private System.Windows.Forms.Label LblPersonas;
-        private System.Windows.Forms.ComboBox LstTipo;
-        private System.Windows.Forms.Label LblTipo;
-        private System.Windows.Forms.GroupBox MrcAdicionales;
+        private System.Windows.Forms.Label lblPersonas;
+        private System.Windows.Forms.ComboBox lstTipo;
+        private System.Windows.Forms.Label lblTipo;
+        private System.Windows.Forms.GroupBox mrcAdicionales;
         private System.Windows.Forms.CheckBox chkTelevision;
         private System.Windows.Forms.CheckBox chkHeladera;
         private System.Windows.Forms.CheckBox chkCocina;
-        private System.Windows.Forms.GroupBox MrcFormas;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.GroupBox mrcFormas;
+        private System.Windows.Forms.ComboBox lstTarjetas;
         private System.Windows.Forms.Label lblTarjetas;
-        private System.Windows.Forms.RadioButton BtnTarjeta;
-        private System.Windows.Forms.RadioButton BtnEfectivo;
-        private System.Windows.Forms.GroupBox MrcTitular;
+        private System.Windows.Forms.RadioButton btnTarjeta;
+        private System.Windows.Forms.RadioButton btnEfectivo;
+        private System.Windows.Forms.GroupBox mrcTitular;
         private System.Windows.Forms.TextBox txtTelefonosTitular;
         private System.Windows.Forms.TextBox txtNombreTitular;
         private System.Windows.Forms.Label lblTelefonos;

@@ -20,3 +20,14 @@ C:\Users\Alumno\Source\Repos\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\obj\Debug\pryMo
 C:\Users\Alumno\Source\Repos\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\obj\Debug\pryMoyaSP2.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Source\Repos\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\obj\Debug\pryMoyaSP2.exe
 C:\Users\Alumno\Source\Repos\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\obj\Debug\pryMoyaSP2.pdb
+C:\Users\fermo\Source\Repos\pryFerMoyaSPx\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\bin\Debug\pryMoyaSP2.exe.config
+C:\Users\fermo\Source\Repos\pryFerMoyaSPx\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\bin\Debug\pryMoyaSP2.exe
+C:\Users\fermo\Source\Repos\pryFerMoyaSPx\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\bin\Debug\pryMoyaSP2.pdb
+C:\Users\fermo\Source\Repos\pryFerMoyaSPx\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\obj\Debug\pryMoyaSP2.csproj.AssemblyReference.cache
+C:\Users\fermo\Source\Repos\pryFerMoyaSPx\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\obj\Debug\pryMoyaSP2.csproj.SuggestedBindingRedirects.cache
+C:\Users\fermo\Source\Repos\pryFerMoyaSPx\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\obj\Debug\pryMoyaSP2.FrmCabañas.resources
+C:\Users\fermo\Source\Repos\pryFerMoyaSPx\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\obj\Debug\pryMoyaSP2.Properties.Resources.resources
+C:\Users\fermo\Source\Repos\pryFerMoyaSPx\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\obj\Debug\pryMoyaSP2.csproj.GenerateResource.cache
+C:\Users\fermo\Source\Repos\pryFerMoyaSPx\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\obj\Debug\pryMoyaSP2.csproj.CoreCompileInputs.cache
+C:\Users\fermo\Source\Repos\pryFerMoyaSPx\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\obj\Debug\pryMoyaSP2.exe
+C:\Users\fermo\Source\Repos\pryFerMoyaSPx\pryFerMoyaSPx\pryMoyaSP2\pryMoyaSP2\obj\Debug\pryMoyaSP2.pdb
